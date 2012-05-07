@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>RSYNC_USER=${RSYNC_USER:-defaultUsername}
+RSYNC_HOST=${RSYNC_HOST:-defaultHost}
+RSYNC_PORT=${RSYNC_PORT:-defaultPort}
+if [ "${RSYNC_SRC}" ]; then
+	rsync -av --rsh="ssh -p$RSYNC_PORT" --exclude=".*" "$RSYNC_SRC" $RSYNC_USER@$RSYNC_HOST:"$RSYNC_DEST"
+fi</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@s</string>
+	<key>name</key>
+	<string>Save</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>997FEF14-D63A-48E5-A195-F1137EB6E965</string>
+</dict>
+</plist>

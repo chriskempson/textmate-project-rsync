@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Project Rsync</string>
+	<key>ordering</key>
+	<array>
+		<string>997FEF14-D63A-48E5-A195-F1137EB6E965</string>
+		<string>2B1A53A6-B6F3-47F6-835D-749509B62D6F</string>
+		<string>E70C36D2-FC87-45E9-87A0-EE7CAF079023</string>
+	</array>
+	<key>uuid</key>
+	<string>CE802855-1A9F-41D8-BF31-2B4176363AC4</string>
+</dict>
+</plist>
